@@ -424,11 +424,6 @@ img {
   overflow: hidden;
 }
 
-.footer {
-  background: #2e2f42;
-  padding: 100px 0;
-}
-
 .hidden-text {
   position: absolute;
   top: 0;
@@ -443,6 +438,11 @@ img {
   transform: translateY(100%);
   color: #f4f4fd;
   background-color: #4d5ae5;
+}
+
+.footer {
+  background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-link {
