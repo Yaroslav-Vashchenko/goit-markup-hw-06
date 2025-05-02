@@ -124,7 +124,7 @@
       </div>
     </header>
     <main>
-      <section class="section-one hidden">
+      <section class="section-one">
         <div class="container">
           <h1 class="title">Effective Solutions for Your Business</h1>
           <button class="main-button" type="button">Order Service</button>
@@ -343,7 +343,7 @@
         </div>
       </section>
       <!-- Our Portfolio -->
-      <section class="section-four">
+      <section class="section-four hidden">
         <div class="container">
           <h2 class="main-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -455,7 +455,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-cont">
         <div class="footer-logo-con">
           <a class="footer-link" href="./index.html"
@@ -521,7 +521,7 @@
       </div>
     </footer>
     <!-- Modal -->
-    <div class="backdrop is-open hidden">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg class="svg-modal-btn" width="8" height="8">
@@ -595,8 +595,10 @@
               <span class="real-checkbox">
                 <svg class="check-svg" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg></span
-              >I accept the terms and conditions of the
-              <a href="#" class="accent">Privacy Policy</a></label
+              ><span class="modal-label-accept-span"
+                >I accept the terms and conditions of the
+                <a href="#" class="accent">Privacy Policy</a></span
+              ></label
             >
           </div>
           <button class="main-button" type="submit">Send</button>
